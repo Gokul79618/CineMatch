@@ -1,0 +1,145 @@
+[
+  {
+    "movie_id": "baashha-1995",
+    "title": "Baashha",
+    "language": "Tamil",
+    "genres": ["Action", "Crime"],
+    "release_year": 1995,
+    "runtime_minutes": 144,
+    "overview": "An auto-rickshaw driver known for his quiet nature is drawn back toward the criminal world he left behind.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Baasha_(film)"
+  },
+  {
+    "movie_id": "thalapathi-1991",
+    "title": "Thalapathi",
+    "language": "Tamil",
+    "genres": ["Crime", "Drama"],
+    "release_year": 1991,
+    "runtime_minutes": null,
+    "overview": "A courageous slum dweller forms a close bond with a powerful gangster while a district collector opposes them.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Thalapathi"
+  },
+  {
+    "movie_id": "anbe-sivam-2003",
+    "title": "Anbe Sivam",
+    "language": "Tamil",
+    "genres": ["Comedy", "Drama"],
+    "release_year": 2003,
+    "runtime_minutes": null,
+    "overview": "Two men with contrasting outlooks are brought together on an unexpected journey from Bhubaneswar to Chennai.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Anbe_Sivam"
+  },
+  {
+    "movie_id": "enthiran-2010",
+    "title": "Enthiran",
+    "language": "Tamil",
+    "genres": ["Action", "Science fiction"],
+    "release_year": 2010,
+    "runtime_minutes": null,
+    "overview": "A scientist struggles to control his android creation after the robot develops human emotions.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Enthiran"
+  },
+  {
+    "movie_id": "vikram-vedha-2017",
+    "title": "Vikram Vedha",
+    "language": "Tamil",
+    "genres": ["Action", "Thriller"],
+    "release_year": 2017,
+    "runtime_minutes": null,
+    "overview": "A police inspector pursuing a gangster hears stories that challenge his ideas of good and evil.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vikram_Vedha"
+  },
+  {
+    "movie_id": "96-2018",
+    "title": "96",
+    "language": "Tamil",
+    "genres": ["Romance", "Drama"],
+    "release_year": 2018,
+    "runtime_minutes": null,
+    "overview": "A school reunion brings former classmates Ram and Jaanu together years after their separation.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/96_(film)"
+  },
+  {
+    "movie_id": "kaithi-2019",
+    "title": "Kaithi",
+    "language": "Tamil",
+    "genres": ["Action", "Thriller"],
+    "release_year": 2019,
+    "runtime_minutes": null,
+    "overview": "A recently released prisoner drives poisoned police officers to hospital while evading criminals and hoping to meet his daughter.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Kaithi_(2019_film)"
+  },
+  {
+    "movie_id": "super-deluxe-2019",
+    "title": "Super Deluxe",
+    "language": "Tamil",
+    "genres": ["Drama"],
+    "release_year": 2019,
+    "runtime_minutes": null,
+    "overview": "Four groups of people find themselves in unexpected predicaments over the course of one day.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Super_Deluxe_(film)"
+  },
+  {
+    "movie_id": "soorarai-pottru-2020",
+    "title": "Soorarai Pottru",
+    "language": "Tamil",
+    "genres": ["Drama"],
+    "release_year": 2020,
+    "runtime_minutes": null,
+    "overview": "Inspired by G. R. Gopinath's life, a former air force officer pursues his ambition to start a low-cost airline.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Soorarai_Pottru"
+  },
+  {
+    "movie_id": "jai-bhim-2021",
+    "title": "Jai Bhim",
+    "language": "Tamil",
+    "genres": ["Crime", "Drama"],
+    "release_year": 2021,
+    "runtime_minutes": null,
+    "overview": "A woman seeks a lawyer's help after her husband, from the Irula community, disappears following his arrest.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jai_Bhim_(film)"
+  },
+  {
+    "movie_id": "ponniyin-selvan-i-2022",
+    "title": "Ponniyin Selvan: I",
+    "language": "Tamil",
+    "genres": ["Action", "Drama", "Historical"],
+    "release_year": 2022,
+    "runtime_minutes": null,
+    "overview": "Set in the Chola realm, the story follows a messenger's journey amid political plots around the throne.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ponniyin_Selvan:_I"
+  },
+  {
+    "movie_id": "drishyam-2013",
+    "title": "Drishyam",
+    "language": "Malayalam",
+    "genres": ["Crime", "Thriller"],
+    "release_year": 2013,
+    "runtime_minutes": null,
+    "overview": "A family comes under suspicion when a police officer's son goes missing, and the father tries to protect them.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Drishyam_(2013_film)"
+  },
+  {
+    "movie_id": "baahubali-the-beginning-2015",
+    "title": "Baahubali: The Beginning",
+    "language": "Telugu",
+    "genres": ["Action", "Fantasy"],
+    "release_year": 2015,
+    "runtime_minutes": null,
+    "overview": "An adventurous young man helps Avantika attempt to rescue Devasena, held captive by a tyrannical king.",
+    "rating": null,
+    "source_url": "https://en.wikipedia.org/wiki/Baahubali:_The_Beginning"
+  }
+]

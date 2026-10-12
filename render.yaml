@@ -1,0 +1,73 @@
+services:
+  - type: web
+    name: cinematch-ai-backend
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    healthCheckPath: /api/ready
+    envVars:
+      - key: APP_NAME
+        value: CineMatch AI
+      - key: APP_VERSION
+        value: 0.1.0
+      - key: API_VERSION
+        value: v1
+      - key: APP_ENV
+        value: production
+      - key: APP_AUTO_INIT_DB
+        value: "false"
+      - key: MYSQL_HOST
+        sync: false
+      - key: MYSQL_PORT
+        value: "3306"
+      - key: MYSQL_CONNECT_TIMEOUT_SECONDS
+        value: "10"
+      - key: MYSQL_USER
+        sync: false
+      - key: MYSQL_PASSWORD
+        sync: false
+      - key: MYSQL_DATABASE
+        value: cinematch_db
+      - key: MYSQL_TEST_DATABASE
+        value: cinematch_test_db
+      - key: MYSQL_SSL_CA
+        value: /etc/secrets/mysql-ca.pem
+      - key: MYSQL_SSL_VERIFY_CERT
+        value: "true"
+      - key: MOVIES_CATALOG_PATH
+        value: data/movies.json
+      - key: RAG_DOCUMENTS_PATH
+        value: data/rag_documents.json
+      - key: RAG_INDEX_PATH
+        value: data/rag_index.json
+      - key: RAG_EMBEDDING_MODEL
+        value: sentence-transformers/all-MiniLM-L6-v2
+      - key: RAG_EMBEDDING_REVISION
+        value: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+      - key: RAG_CHUNK_SIZE
+        value: "800"
+      - key: RAG_CHUNK_OVERLAP
+        value: "100"
+      - key: RAG_DEFAULT_TOP_K
+        value: "3"
+      - key: RAG_MINIMUM_SIMILARITY
+        value: "0.30"
+      - key: LLM_PROVIDER
+        value: mock
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_BASE_URL
+        value: https://api.openai.com/v1
+      - key: OPENAI_TIMEOUT_SECONDS
+        value: "20"
+      - key: OPENAI_MAX_RETRIES
+        value: "1"
+      - key: FRONTEND_ORIGINS
+        sync: false
+      - key: MAX_REQUEST_BYTES
+        value: "1048576"
+      - key: AGENT_REQUESTS_PER_MINUTE
+        value: "20"

@@ -1,0 +1,68 @@
+{
+  "dataset_version": "cinematch-rag-golden-v1",
+  "top_k": 3,
+  "minimum_metrics": {
+    "recall_at_k": 0.8,
+    "mean_reciprocal_rank": 0.8,
+    "retrieval_coverage": 1.0,
+    "empty_result_accuracy": 1.0,
+    "source_attribution_correctness": 1.0
+  },
+  "cases": [
+    {
+      "case_id": "baashha-summary",
+      "query": "Summarize Baashha using retrieved evidence and show the sources.",
+      "answerable": true,
+      "minimum_similarity": 0.25,
+      "relevant_document_ids": ["movie:baashha-1995"],
+      "supported_facts": [
+        "An auto-rickshaw driver known for his quiet nature is drawn back toward the criminal world he left behind."
+      ],
+      "source_references": {
+        "movie:baashha-1995": "https://en.wikipedia.org/wiki/Baasha_(film)"
+      },
+      "unsupported_claims": [
+        "Baashha runtime is 180 minutes.",
+        "Baashha has a rating of 9.1."
+      ]
+    },
+    {
+      "case_id": "enthiran-plot",
+      "query": "A scientist struggles to control an android after it develops emotions.",
+      "answerable": true,
+      "minimum_similarity": 0.25,
+      "relevant_document_ids": ["movie:enthiran-2010"],
+      "supported_facts": [
+        "A scientist struggles to control his android creation after the robot develops human emotions."
+      ],
+      "source_references": {
+        "movie:enthiran-2010": "https://en.wikipedia.org/wiki/Enthiran"
+      },
+      "unsupported_claims": []
+    },
+    {
+      "case_id": "kaithi-plot",
+      "query": "A prisoner drives poisoned police officers to hospital while hoping to meet his daughter.",
+      "answerable": true,
+      "minimum_similarity": 0.25,
+      "relevant_document_ids": ["movie:kaithi-2019"],
+      "supported_facts": [
+        "A recently released prisoner drives poisoned police officers to hospital while evading criminals and hoping to meet his daughter."
+      ],
+      "source_references": {
+        "movie:kaithi-2019": "https://en.wikipedia.org/wiki/Kaithi_(2019_film)"
+      },
+      "unsupported_claims": []
+    },
+    {
+      "case_id": "unanswerable-exoplanet",
+      "query": "Astronauts colonize an exoplanet using quantum teleportation and dragon diplomacy.",
+      "answerable": false,
+      "minimum_similarity": 0.65,
+      "relevant_document_ids": [],
+      "supported_facts": [],
+      "source_references": {},
+      "unsupported_claims": []
+    }
+  ]
+}

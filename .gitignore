@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.sql.gz
+*.dump
+secrets/
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+backend/data/*.sqlite3
+backend/data/*.sqlite3-shm
+backend/data/*.sqlite3-wal
+backend/data/rag_index.json
+backend/data/.rag_index.json.*.tmp
+backend/data/rag_eval_report.json
+backend/data/.rag_eval_report.json.*.tmp
+
+# Node
+node_modules/
+frontend/dist/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
