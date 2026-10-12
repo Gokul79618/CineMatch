@@ -149,15 +149,15 @@ mysqldump `
 
 ## 6. Step-by-Step Cloud Deployment
 
-### Step 6.1: Push Dedicated Repository to GitHub
-Ensure you are inside `C:\Users\kgoku\Desktop\CineMatch` (never the Windows home
-directory):
+### Step 6.1: GitHub Repository (Completed)
+The dedicated repository in `C:\Users\kgoku\Desktop\CineMatch` has been pushed to:
+- **Repository:** `https://github.com/Gokul79618/CineMatch.git` (`main` branch)
+
+For future updates:
 ```powershell
 Set-Location 'C:\Users\kgoku\Desktop\CineMatch'
 git status
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git branch -M main
-git push -u origin main
+git push origin main
 ```
 
 ### Step 6.2: Deploy Backend on Render (Docker)
